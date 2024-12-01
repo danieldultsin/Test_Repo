@@ -1,0 +1,14 @@
+/* Style for the container (spreadsheet grid) */
+#container {
+  display: grid; /* Use grid layout */
+  grid-template-columns: 50px repeat(10, 200px); /* Fixed width for labels, 10 columns of 200px */
+  grid-template-rows: repeat(11, 30px); /* Rows of 30px each */
+}
+
+/* Style for labels (row/column headers) */
+.label {
+  background-color: lightgray; /* Light gray background */
+  text-align: center; /* Center align text */
+  vertical-align: middle; /* Center text vertically */
+  line-height: 30px; /* Match row height for vertical centering */
+}
